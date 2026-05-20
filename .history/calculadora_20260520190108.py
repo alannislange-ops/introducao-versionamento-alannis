@@ -1,4 +1,5 @@
 
+
 def soma(a, b):
     return a+b
 
@@ -14,22 +15,16 @@ def divisao(a, b):
 def multi(a, b):
     return a*b
 
-def exponent(a,b):
-    return a**b
+def 
 
-def porcent(a,b):
-    return (a * (b/100))
 
 while True:
-    
     print("\n=====Calculadora=====")
     print("Escolha uma operação a seguir: ")
     print("Soma: 1")
     print("Multiplicação: 2")
     print("Divisão: 3")
     print("Subtração: 4")
-    print("Exponênciação: 5")
-    print("Porcentagem total/percentual: 6")
     print("Sair: 0")
     
     opcao = int(input("Escolha a operação: "))
@@ -41,23 +36,19 @@ while True:
     num2 = float(input("Digite o 2º número: "))
     
     if opcao == 1:
+        #print("Soma: ",soma(num1, num2))
         resultado = soma(num1, num2)
-        
     elif opcao == 2:
+        #print("Multiplicação: ",multi(num1, num2))
         resultado = multi(num1, num2)
-        
     elif opcao == 3:
+        #print("Divisão: ",divisao(num1, num2))
         resultado = divisao(num1, num2)
-        
     elif opcao == 4:
+        #print("Subtração: ",subtracao(num1, num2))
         resultado = subtracao(num1, num2)
-        
     elif opcao == 5:
-        resultado = exponent(num1, num2)
-        
-    elif opcao == 6:
-        resultado = porcent(num1, num2)
-        
+        resultado = 
     else:
         print("Opção inválida!")
         

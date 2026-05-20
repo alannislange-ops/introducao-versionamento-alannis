@@ -17,9 +17,6 @@ def multi(a, b):
 def exponent(a,b):
     return a**b
 
-def porcent(a,b):
-    return (a * (b/100))
-
 while True:
     
     print("\n=====Calculadora=====")
@@ -29,7 +26,6 @@ while True:
     print("Divisão: 3")
     print("Subtração: 4")
     print("Exponênciação: 5")
-    print("Porcentagem total/percentual: 6")
     print("Sair: 0")
     
     opcao = int(input("Escolha a operação: "))
@@ -41,6 +37,7 @@ while True:
     num2 = float(input("Digite o 2º número: "))
     
     if opcao == 1:
+        #print("Soma: ",soma(num1, num2))
         resultado = soma(num1, num2)
         
     elif opcao == 2:
@@ -54,10 +51,6 @@ while True:
         
     elif opcao == 5:
         resultado = exponent(num1, num2)
-        
-    elif opcao == 6:
-        resultado = porcent(num1, num2)
-        
     else:
         print("Opção inválida!")
         
